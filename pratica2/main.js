@@ -1,5 +1,5 @@
-let arr = [1,2,3,4,5,6,7,8,9];
-let arr1 = arr.reduce(function(acc,valorAtual){
-    return acc+valorAtual;
+let arr = [10,20,30,40,50,60,70,80,90];
+let arr1 = arr.reduce(function(acc,valor){
+    return acc+valor;
 })
 document.write(arr1);
